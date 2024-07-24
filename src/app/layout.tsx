@@ -4,6 +4,7 @@ import "./globals.css";
 import Aside from "./ui/components/aside";
 import Footer from "./ui/components/footer";
 import Header from "./ui/components/header";
+import Hamburger from "./ui/components/hamburger";
 
 const oxygen = Oxygen({
   subsets: ["latin"],
@@ -29,8 +30,9 @@ export default function RootLayout({
         {/* <Aside /> */}
         <main className="h-screen flex flex-col w-screen">
           <Header />
+          <Hamburger />
           <div className="flex-1">{children}</div>
-          <Footer />
+          {/* <Footer /> */}
         </main>
       </body>
     </html>

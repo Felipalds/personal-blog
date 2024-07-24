@@ -3,18 +3,21 @@
     "title": "Golang TCP server",
     "description": "A simple TCP server written in Golang",
     "imageURL": "/golang.png",
+    "slug": "go-lang-tcp-server",
     "date": "2024"
   },
   {
     "title": "Filesystem made in C",
     "description": "Filesystem made in C",
-    "imageURL": "/golang.png",
+    "imageURL": "/filesystem.png",
+    "slug": "filesystem-in-c",
     "date": "2024"
   },
   {
-    "title": "Start learning Spring Boot",
-    "description": "Start learning Spring Boot",
-    "imageURL": "/golang.png",
+    "title": "Genetic Algorithms Explained",
+    "description": "A project to learn genetic algorithms",
+    "imageURL": "/genetic.webp",
+    "slug": "genetic-algorithms-explained",
     "date": "2024"
   }
 ]

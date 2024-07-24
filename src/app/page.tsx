@@ -17,13 +17,14 @@ export default function Home() {
             <Link key={index} href={`/blogs/${article.slug}`}>
               <div className="text-2xl">
                 <div className="border overflow-hidden rounded-xl border-zinc-50/50 m-4 lg:pb-10">
-                  <Image
-                    className="w-full"
-                    src={article.imageURL}
-                    width={200}
-                    height={200}
-                    alt={article.title}
-                  />
+                  <div className="relative w-full h-56">
+                    <Image
+                      className="w-full"
+                      src={article.imageURL}
+                      fill
+                      alt={article.title}
+                    />
+                  </div>
                   <div className="p-3">
                     <h2 className="text-lg">{article.title}</h2>
                     <p className="text-xs">
